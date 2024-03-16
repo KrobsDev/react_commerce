@@ -3,8 +3,3 @@ function App() {
 }
 
 export default App;
-
-
-
-const x = document.getElementById('id')
- 
