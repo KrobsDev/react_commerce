@@ -6,7 +6,7 @@ interface CustomButtonProps {
 
 export default function CustomButton({ text, color, icon }: CustomButtonProps) {
   const buttonClasses = `${color ? `bg-${color}` : "bg-[#0065FF] text-white"}
-     text-center p-3 font-medium rounded-md ${
+     text-center p-3 font-medium rounded-md pointer ${
        icon && `flex justify-center items-center gap-4 text-black`
      }`;
   return (
